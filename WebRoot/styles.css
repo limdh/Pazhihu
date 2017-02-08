@@ -1,0 +1,256 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #F7FAFC;
+	background-image: url("img/backgroud.png");
+}
+
+a {
+	text-decoration: none;
+	color: #0663c1;
+}
+
+#regMainDIV {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -280px;
+	width: 500px;
+	height: 400px;
+}
+
+#loginMainDIV {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -180px 0 0 -280px;
+	width: 500px;
+	height: 400px;
+}
+
+#loginFailInfo {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	padding-left: 40px;
+	margin-bottom: 10px;
+}
+
+#myCenterErrorTip {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	padding-left: 220px;
+	margin-bottom: 10px;
+}
+
+#leftMainDIV {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	margin: -150px 0 0 -280px;
+	width: 500px;
+	height: 300px;
+}
+
+#myCenterMainDIV {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -350px;
+	width: 500px;
+	height: 400px;
+}
+
+#setFollowsMainDIV {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -280px;
+	width: 500px;
+	height: 400px;
+}
+
+#editFollowsMainDIV {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -280px;
+	width: 500px;
+	height: 400px;
+}
+
+#editfollowDIV{
+	margin-top: -15px;
+}
+
+
+.myCenterInfo {
+	width: 450px;
+	padding-left: 150px;
+	font-size: 20px;
+	color: #0663c1;
+}
+
+#title {
+	text-align: center;
+	padding-left: 50px;
+	padding-bottom: 15px;
+}
+
+#myCenterTitle{
+	text-align: center;
+	padding:20px 0 10px 230px;
+}
+
+#formDIV {
+	margin: auto;
+	width: 260px;
+	height: 300px;
+}
+
+#zhUserInput, #usernameInput, #usernameRegInput, #followsInput {
+	width: 295px;
+	height: 45px;
+	font-size: 20px;
+	color: #696969;
+}
+
+#passwordInput, #passwordRegInput, #passwordTwiceInput {
+	margin-top: 10px;
+	width: 295px;
+	height: 45px;
+	font-size: 20px;
+	color: #696969;
+}
+
+#indexlinkDiv {
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+#reglinkDiv, #loginlinkDiv,#regErrorTip {
+	text-align: center;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#myCenterLinkDiv, #setFollowsLinkDiv {
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 100px;
+}
+
+#followsList {
+	font-size: 12px;
+	color: #696969;
+	width: 300px;
+	padding-top: 10px;
+}
+
+.mailSendLabel {
+	font-size: 12px;
+	color: #696969;
+	padding-top: 10px;
+}
+
+#mailSendRadioTitle {
+	width: 300px;
+	padding-top: 10px;
+	color: #0663c1;
+}
+
+#mailSendRadioDIV{
+	width: 300px;
+	padding-top: 10px;
+}
+
+
+#rightMainDIV {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	width: 800px;
+	height: 500px;
+	border-left: 1px solid grey;
+}
+
+#resultDIV {
+	margin-left: 50px;
+	width: 750px;
+}
+
+#resultTitle {
+	margin-right: 250px;
+	text-align: center;
+}
+
+#resultName, #resultError {
+	font-size: 30px;
+	color: #0663c1;
+}
+
+#followNum {
+	margin-top: 5px;
+	margin-right: 250px;
+	text-align: center;
+	font-size: 12px;
+	color: #696969;
+}
+
+#addToList {
+	margin-top: 5px;
+	margin-right: 250px;
+	text-align: center;
+	font-size: 12px;
+	color: #696969;
+}
+
+#goodat, #topics, #questions, #answers, #last {
+	margin: auto;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+#followTable {
+
+	margin:auto;
+	margin-right:30px;
+	margin-top:10px;
+	border: 1px solid;
+	border-color:#696969;
+}
+
+
+.followTH {
+	text-align: center;
+	font-size: 16px;
+	color: #0663c1;
+	border: 1px solid;
+	border-color:#696969;
+}
+
+.followTD {
+	text-align: center;
+	font-size: 12px;
+	color: #696969;
+	border: 1px solid;
+	border-color:#696969;
+}
+
+#followsTip {
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+}
+
+#searchErrorDIV{
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #eef2f5;
+}
+
+a {
+	text-decoration: none;
+	color: #0663c1;
+}
+
+#errorCode {
+	position: absolute;
+	top: 20px;
+	left: 155px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+}
+
+#errorMainDIV {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -180px 0 0 -200px;
+	width: 400px;
+	height: 400px;
+}
+
+#errorContent {
+	background-color:#f7f7f7;
+	margin-top:10px;
+	padding-bottom:50px;
+	border: 1px solid #babbbc;
+  	border-radius: 5px;
+}
+
+#errorInfo {
+	padding-top:30px;
+	width:400px;
+	text-align:center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+}
+
+#errorDetail {
+	padding-top:30px;
+	width:400px;
+	text-align:center;
+	font-size: 18px;
+	color: #696969;
+}
+
+#errorHR{
+	margin-top:20px;
+	text-align:center;
+	width:80%;
+}
+
+#errorBackLink{
+	padding-top:10px;
+	text-align:center;
+	font-size: 18px;
+	color: #696969;
+}
